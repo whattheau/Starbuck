@@ -89,12 +89,15 @@
     box-shadow: 0px 0px 2px 0px #212420;
     right: 20px;
     top: 20px;
-    font-family: 'Arimo', sans-serif;
+
+}
+.button_reward a{
+	text-decoration: none;
+	 font-family: 'Arimo', sans-serif;
 	color: #fff;
 	font-style: bold;
 	font-size: 15px;
 }
-
 /*-----------------------REWARD--------------------------*/
 
 .card_bg{
