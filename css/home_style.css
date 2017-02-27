@@ -1,0 +1,230 @@
+.mobile{
+	margin: 0 auto;
+	width: 375px;
+	height: 667px;
+	background: #333;
+}
+
+/*-----------------------Head--------------------------*/
+
+.head{
+	float: left;
+	width: 375px;
+	height: 52px;
+	background: -webkit-linear-gradient(#59a41e, #22790d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#59a41e, #22790d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#59a41e, #22790d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#59a41e, #22790d); /* Standard syntax */
+	box-shadow: 0px 5px #212420;
+	
+}
+
+.head p{
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	padding-top: 17px;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+/*-----------------------REWARD--------------------------*/
+
+.box_wrap_reward{
+	margin-top: 10px;
+	margin-left: 20px;
+
+}
+.reward_box{
+	float: left;
+	width: 375px;
+	height: 95px;
+    background: -webkit-linear-gradient(#25301e, #3c4d30); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#25301e, #3c4d30); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#25301e, #3c4d30); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#25301e, #3c4d30); /* Standard syntax */
+    position: relative;
+}
+.reward_box i{
+	float: left;
+	margin-right: 10px;
+	color: #6cb23f;
+}
+.reward_box h1{
+	float: left;
+	font-family: 'Arimo', sans-serif;
+	color: #6cb23f;
+	font-style: bold;
+}
+.reward_box h2{
+	float: left;
+	font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-style: bold;
+	font-size: 15px;
+	padding-top: 5px;
+}
+.p_wrap{
+	margin-top: 30px;
+}
+
+.reward_box p{
+	font-family: 'Arimo', sans-serif;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+}
+
+
+.button_reward{
+	position: absolute;
+	width: 95px;
+	height: 47px;
+	border:none;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(#686868, #4e4e4e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#686868, #4e4e4e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#686868, #4e4e4e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#686868, #4e4e4e); /* Standard syntax */
+    box-shadow: 0px 0px 2px 0px #212420;
+    right: 20px;
+    top: 20px;
+    font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-style: bold;
+	font-size: 15px;
+}
+
+/*-----------------------REWARD--------------------------*/
+
+.card_bg{
+	float: left;
+	width: 375px;
+	height: 520px;
+	background: -webkit-radial-gradient(#4a4a4a, #1e1e1e); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#4a4a4a, #1e1e1e); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#4a4a4a, #1e1e1e); /* For Fx 3.6 to 15 */
+    background: radial-gradient(#4a4a4a, #1e1e1e); /* Standard syntax (must be last) */
+    position: relative;
+}
+
+.img_card{
+	float: left;
+	width: 300px;
+	height: 190px;
+	background: #111;
+	border-radius: 10px;
+	margin-left: 35px;
+	margin-top: 15px;
+
+}
+
+
+
+.card_detail{
+	margin-left: 20px;
+	
+}
+.circle_detail{
+	width: 80px;
+	height: 80px;
+	background: #555;
+	position: absolute;
+	border-radius: 50%;
+	left: 280px;
+	top: 140px;
+	font-family: 'Arimo', sans-serif;
+	color: #fff;
+}
+
+.left_detail h1{
+	float: left;
+	font-family: 'Lora', serif;
+	font-size: 25px;
+	color: #fff;
+	margin-top: 23px;
+}
+
+.left_detail p{
+	float: left;
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	margin-left: -140px;
+	margin-top: 53px;
+
+}
+
+.right_detail h1{
+	position: absolute;
+	color: #529f1c;
+	right:20px;
+	top:238px;
+	font-family: 'Arimo', sans-serif;
+	font-style: none;
+}
+
+.right_detail p{
+	position: absolute;
+	color: #529f1c;
+	font-family: 'Arimo', sans-serif;
+	right:20px;
+	top:257px;
+}
+.manage_button{
+	position: absolute;
+	top: 293px;
+	left: 80px;
+	width: 95px;
+	height: 47px;
+	border:none;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(#686868, #4e4e4e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#686868, #4e4e4e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#686868, #4e4e4e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#686868, #4e4e4e); /* Standard syntax */
+    box-shadow: 0px 0px 2px 0px #212420;
+    font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-style: bold;
+	font-size: 15px;
+}
+
+.add_button{
+	position: absolute;
+	top: 293px;
+	left: 200px;
+	width: 95px;
+	height: 47px;
+	border:none;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(#686868, #4e4e4e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#686868, #4e4e4e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#686868, #4e4e4e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#686868, #4e4e4e); /* Standard syntax */
+    box-shadow: 0px 0px 2px 0px #212420;
+    font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-style: bold;
+	font-size: 15px;
+}
+
+/*-----------------------MENU--------------------------*/
+
+.menu_box{
+	float: left;
+	width: 375px;
+	height: 70px;
+	background: #292929;
+	border-radius: 45%;
+	margin-top: 180px;
+	position: relative;
+}
+.menu_box_2{
+	position: absolute;
+	bottom: 0;
+	margin-top: 220px;
+	width: 375px;
+	height: 25px;
+	background: #1e1e1e;
+}
