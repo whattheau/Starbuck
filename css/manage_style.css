@@ -1,0 +1,182 @@
+.mobile{
+	margin: 0 auto;
+	width: 375px;
+	height: 667px;
+	background: #333;
+	border: 1px solid black;
+}
+
+/*-----------------------Head--------------------------*/
+
+.head{
+	float: left;
+	width: 375px;
+	height: 52px;
+	background: -webkit-linear-gradient(#59a41e, #22790d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#59a41e, #22790d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#59a41e, #22790d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#59a41e, #22790d); /* Standard syntax */
+	box-shadow: 0px 5px #212420;
+	
+}
+
+.head p{
+	float: left;
+	font-family: 'Arimo', sans-serif;
+	margin-left: 20%;
+	margin-top: 15px;
+	font-size: 20px;
+	color: #fff;
+
+}
+.head a{
+	float: left;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 12px;
+}
+
+
+
+
+.card_bg{
+	float: left;
+	width: 375px;
+	height: 520px;
+	background: -webkit-radial-gradient(#4a4a4a, #1e1e1e); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#4a4a4a, #1e1e1e); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#4a4a4a, #1e1e1e); /* For Fx 3.6 to 15 */
+    background: radial-gradient(#4a4a4a, #1e1e1e); /* Standard syntax (must be last) */
+    position: relative;
+}
+
+.img_card{
+	float: left;
+	width: 150px;
+	height: 104px;
+	background: #111;
+	border-radius: 10px;
+	margin-left: 35px;
+	margin-top: 15px;
+	background: url("../img/thank2.jpg") no-repeat center center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 50px;
+}
+
+
+.table{
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+table {
+   	color: #fff;
+   	font-family: 'Arimo', sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+    margin-left: 50px;
+}
+tr{
+	
+}
+.card_detail{
+	margin-left: 20px;
+	
+}
+.red{
+	color: red;
+	font-style: bold;
+}
+.green{
+	color: green;
+	font-style: bold;
+}
+
+.card_detail p{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #4f9c1b;
+	font-family: 'Arimo', sans-serif;
+	font-size: 12px;
+	
+}
+.card_detail h1{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	font-family: 'Arimo', sans-serif;
+	font-size: 25px;
+	
+}
+
+.last p{
+	float: left;
+	color: #4f9c1b;
+	font-family: 'Arimo', sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+.circle_detail{
+	width: 80px;
+	height: 80px;
+	background: #555;
+	position: absolute;
+	border-radius: 50%;
+	left: 280px;
+	top: 160px;
+	background: #1d660b;
+}
+
+.circle_detail a{
+	
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-style: bold;
+	font-size: 15px;
+	
+}
+: rotate(360deg);
+}
+/*-----------------------MENU--------------------------*/
+
+.menu_box{
+	float: left;
+	width: 375px;
+	height: 70px;
+	background: #292929;
+	border-radius: 35%;
+	margin-top: 25px;
+	position: relative;
+}
+.menu_box_2{
+	position: absolute;
+	bottom: 0;
+	margin-top: 220px;
+	width: 375px;
+	height: 25px;
+	background: #1e1e1e;
+}
+
+.box_menu{
+	float: left;
+	margin-left: 15px;
+}
+.box_menu a{
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-size: 10px;
+	margin-right: 20px;
+}

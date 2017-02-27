@@ -196,11 +196,16 @@
     background: -moz-linear-gradient(#686868, #4e4e4e); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#686868, #4e4e4e); /* Standard syntax */
     box-shadow: 0px 0px 2px 0px #212420;
-    font-family: 'Arimo', sans-serif;
+   
+}
+.manage_button a{
+	text-decoration: none;
+	 font-family: 'Arimo', sans-serif;
 	color: #fff;
 	font-style: bold;
 	font-size: 15px;
 }
+
 
 .add_button{
 	position: absolute;
