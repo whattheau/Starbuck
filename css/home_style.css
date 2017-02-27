@@ -133,8 +133,17 @@
 	border-radius: 50%;
 	left: 280px;
 	top: 140px;
+	background: #1d660b;
+}
+
+.circle_detail a{
+	
+	text-decoration: none;
 	font-family: 'Arimo', sans-serif;
 	color: #fff;
+	font-style: bold;
+	font-size: 15px;
+	
 }
 
 .left_detail h1{
@@ -210,7 +219,11 @@
 }
 
 /*-----------------------MENU--------------------------*/
-
+.img_card{
+	width: 300px;
+	height: 188px;
+	background: url("../img/thank.png") no-repeat center center;
+}
 .menu_box{
 	float: left;
 	width: 375px;
@@ -227,4 +240,16 @@
 	width: 375px;
 	height: 25px;
 	background: #1e1e1e;
+}
+
+.box_menu{
+	float: left;
+	margin-left: 15px;
+}
+.box_menu a{
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-size: 10px;
+	margin-right: 20px;
 }
